@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ads</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<declare-styleable name="com_np_ads">
+        <attr name="app_id" format="string"/>
+    </declare-styleable>
+</resources>
