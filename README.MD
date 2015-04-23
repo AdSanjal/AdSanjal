@@ -6,7 +6,7 @@ Implementation of AdSanjal SDK is very easy.
  - Download AdSanjal SDK library project from [here](https://github.com/AdSanjal/AdSanjal/blob/master/downloads/AdSanjalLib_1.0.zip?raw=true).
  - Link your project with the library provided.
  - Include the following code : 
- - ````
+````
 <com.adsanjal.AdView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
