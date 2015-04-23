@@ -13,8 +13,8 @@ Implementation of AdSanjal SDK is very easy.
         android:layout_gravity="center"
         ads:app_id="<my-app-id>" />
 ````
-You must register and create an Application in the AdSanjal Dashboard to get <my-app-id>
+You must create an App to get app_id in the AdSanjal dashboard
 
-####You can easily create campaign and promote your own business via Adsanjal Network.
+####Create campaign and promote your business via AdSanjal Network.
 
-for more info check out https://adsanjal.com
+for more info check https://adsanjal.com

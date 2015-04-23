@@ -16,11 +16,15 @@ import android.widget.TextView;
 public class MainActivity extends FragmentActivity {
 
 	static String messages[] = new String[]{
-			"AdSanjal is a mobile networking platform that is aimed at helping advertiser promote their business via mobile apps.",
-			"The advantage with advertising with mobile apps is that you can get your ads directly visible to the end users.",
-			"AdSanjal is a product of Mantra Ideas, a team focused on providing various kinds of web/mobile services to people."
+			"Got advertisers looking to put ads on your app?"
+			+ "\n\nAdSanjal can help you manage ads and get detailed analytics "
+			+ "on impressions and clicks, which later can be shown to advertisers."
+			+ "\n\n\nNext screen >>>",
+			"Are you looking to place ads on nepali apps?\n\nAdSanjal can help you "
+			+ "run campaigns and get detail analytics about the reach from ads "
+			+ "and their effectiveness.\n\nPay as you grow with\nhttps://AdSanajal.com"
 	};
-	static String colors[] = new String[]{"#009688", "#03A9F4", "#4CAF50", "#8BC34A", "#FFC107"};
+	static String colors[] = new String[]{"#009688", "#f47a5c"/*, "#795548", "#FFC107", "#03A9F4", "#4CAF50", "#8BC34A"*/};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

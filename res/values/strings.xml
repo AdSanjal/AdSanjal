@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Ads</string>
+    <string name="app_name">AdSanjal Sample</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="adsanjal_string">This is sample application for AdSanjal. \n\nFor more info visit \nhttp://adsanjal.com</string>
