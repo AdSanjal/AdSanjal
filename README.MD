@@ -3,18 +3,21 @@ AdSanjal is a mobile networking platform that is aimed at helping advertiser pro
 
 #Implementing AdSanjal SDK
 Implementation of AdSanjal SDK is very easy.
- - Download AdSanjal library project from this document.
- - Link your project with the Library provided by AdSanjal SDK.
+ - Download AdSanjal SDK library project from [here](https://github.com/AdSanjal/AdSanjal/blob/master/downloads/AdSanjalLib_1.0.zip?raw=true).
+ - Link your project with the library provided.
  - Include the following code : 
-````
+ - ````
 <com.adsanjal.AdView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        ads:app_id="<my-app-id>" />
+        ads:app_id="<my_app_id>" />
 ````
-You must create an App to get app_id in the AdSanjal dashboard
+ - Thats it!  :D
+  
+Note :- You must create an Application to get *app_id* in the [AdSanjal dashboard](https://adsanjal.com/admin).
 
-####Create campaign and promote your business via AdSanjal Network.
+Sample apk : [AdSanjal Sample](https://github.com/AdSanjal/AdSanjal/blob/master/downloads/AdSanjal_Sample_1.0.apk?raw=true).
 
-for more info check https://adsanjal.com
+**Create campaign and promote your business via AdSanjal Network.**
+
+For more info check https://adsanjal.com
