@@ -12,6 +12,12 @@ Implementation of AdSanjal SDK is very easy.
         android:layout_height="wrap_content"
         ads:app_id="<my_app_id>" />
 ````
+ or 
+````
+	LinearLayout adWrapper = (LinearLayout) findViewById(R.id.ad_wrapper);
+	AdView adView = new AdView(getApplicationContext(), <my_app_id>);
+	adWrapper.add(adView);
+````
  - Thats it!  :D
   
 Note :- You must create an Application to get *app_id* in the [AdSanjal dashboard](https://adsanjal.com/admin).
