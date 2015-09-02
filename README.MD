@@ -8,8 +8,20 @@ Implementation of AdSanjal SDK is very easy.
   
  **or**
  
- - Download AdSanjal SDK library for Android Studio (.aar) from [here](https://github.com/AdSanjal/AdSanjal/blob/master/downloads/adSanjalLibrary-release_1.0.aar?raw=true).
+ - Download AdSanjal SDK library for Android Studio (.aar) from [here](https://github.com/AdSanjal/AdSanjal/blob/master/downloads/AdSanjalSDK-v1.1.0.aar?raw=true).
 
+ - Add the following code in build.gradle
+ ````
+ repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+ }
+ dependencies {
+ 	compile(name: 'AdSanjalSDK-v1.1.0', ext: 'aar')
+ }
+ ````
 #####Write Code
  - Include the following code : 
 ````
